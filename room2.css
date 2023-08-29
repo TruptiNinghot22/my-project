@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hotpink;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 200px;
+            height: 150px;
+            border: 2px solid black;
+            background-color:aliceblue;
+            padding: 20px;
+            margin: 0 auto;
+}
+
+.room {
+    border: 2px solid black;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shuffle-button {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: 2px black;
+    cursor: pointer;
+}
+#shuffleAllButton {
+    background-color: #3498db; 
+    color: white; 
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.back-button{
+    background-color: #3498db; 
+    color: white; 
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.download-button{
+    background-color: #3498db;
+    color: white; 
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.centered-button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+.names-list {
+    list-style-type: upper-alpha;
+}
